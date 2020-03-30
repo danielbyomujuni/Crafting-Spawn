@@ -1,13 +1,16 @@
 package net.craftingspawn.enchantments;
 
 import net.minecraft.enchantment.Enchantment;
+
+// import net.minecraft.enchantment.*;
+
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.entity.EquipmentSlot;
 
 public class silkspawner extends Enchantment {
-    public silkspawner(Weight weight, EnchantmentTarget target, EquipmentSlot[] slots) {
+    public silkspawner(Rarity weight,EnchantmentTarget target, EquipmentSlot[] slots){
         super(weight, target, slots);
-    };
+    }
 
     @Override
     public int getMinimumPower(int int_1) {
