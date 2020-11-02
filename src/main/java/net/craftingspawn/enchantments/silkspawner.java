@@ -13,12 +13,12 @@ public class silkspawner extends Enchantment {
     }
 
     @Override
-    public int getMinimumPower(int int_1) {
+    public int getMinPower(int int_1) {
         return 30;
     }
 
     @Override
-    public int getMaximumLevel() {
+    public int getMaxLevel() {
         return 1;
     }
 }

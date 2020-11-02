@@ -13,9 +13,12 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class CraftingSpawn implements ModInitializer {
+	
 	private static Enchantment SilkSpawner;
 	public static final golemEgg GOLEM_EGG = new golemEgg(EntityType.IRON_GOLEM, 0xf3ffff, 0xffecd4,
 			new Item.Settings().group(ItemGroup.MISC));
+
+
 
 	@Override
 	public void onInitialize() {
